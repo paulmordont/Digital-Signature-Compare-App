@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{B876BE73-0F0E-47BC-91C6-72185F0BEAE7}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DigitalSignature.TestConsoleApp</RootNamespace>
+    <AssemblyName>DigitalSignature.TestConsoleApp</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DigitalSignature.Data.Entities\DigitalSignature.Data.Entities.csproj">
+      <Project>{708e663f-aa17-434a-90eb-3f5661738474}</Project>
+      <Name>DigitalSignature.Data.Entities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DigitalSignature.Data.Interfaces\DigitalSignature.Data.Interfaces.csproj">
+      <Project>{7b97685e-d4a8-4b45-a8fc-ec14290f79ab}</Project>
+      <Name>DigitalSignature.Data.Interfaces</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DigitalSignature.Data\DigitalSignature.Data.csproj">
+      <Project>{5b0a5484-26b8-4e6c-ab08-4c0520bc3ea8}</Project>
+      <Name>DigitalSignature.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DigitalSignature.ECDSACustom\DigitalSignature.ECDSACustom.csproj">
+      <Project>{29fa1f56-b7f5-4034-a6a8-f4070ed95d6f}</Project>
+      <Name>DigitalSignature.ECDSACustom</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DigitalSignature.Helpers\DigitalSignature.Helpers.csproj">
+      <Project>{b426b514-2c83-4540-b3ca-76b681479617}</Project>
+      <Name>DigitalSignature.Helpers</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DigitalSignature.RSA\DigitalSignature.RSA.csproj">
+      <Project>{2bdd1a0e-6c49-40c2-9eac-ec2341862542}</Project>
+      <Name>DigitalSignature.RSA</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

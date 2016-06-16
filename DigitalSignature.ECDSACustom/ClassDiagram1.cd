@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" GroupingSetting="Access">
+  <Class Name="DigitalSignature.ECDSACustom.Curve">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAFAAAA=</HashCode>
+      <FileName>Curve.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DigitalSignature.ECDSACustom.CurveProvider">
+    <Position X="0.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAAAgAEAAAAAAgAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CurveProvider.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DigitalSignature.ECDSACustom.ECDSACheckModel">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAABQAAAAAAAAAAAAAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>ECDSACheckModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DigitalSignature.ECDSACustom.ECDSASignature">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAQA=</HashCode>
+      <FileName>ECDSASignature.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DigitalSignature.ECDSACustom.ECDSASigner">
+    <Position X="4" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAAAAAAAABAAAAAAEAIAAAAAAAAAAAA=</HashCode>
+      <FileName>ECDSASigner.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DigitalSignature.ECDSACustom.ECDSAVerifier">
+    <Position X="2.25" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAABAAAAAAAAIAAAAAAAAAAAA=</HashCode>
+      <FileName>ECDSAVerifier.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DigitalSignature.ECDSACustom.GPoint">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAAAAQAAAAAAAAAAAAAAAAAgAAAAAAgAAA=</HashCode>
+      <FileName>GPoint.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DigitalSignature.ECDSACustom.KeysProvider">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAABAAABAAAABBAAAAAAAIAAAAAQAAAAAA=</HashCode>
+      <FileName>KeysProvider.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

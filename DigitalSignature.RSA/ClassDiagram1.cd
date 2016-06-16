@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="DigitalSignature.RSA.CheckSignViewModel">
+    <Position X="4" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAABAI=</HashCode>
+      <FileName>CheckSignViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DigitalSignature.RSA.KeysProvider">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAAAAAAAAABBAAAAIAAAAAAAAAAAAAAU=</HashCode>
+      <FileName>KeysProvider.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DigitalSignature.RSA.RSADecryptor">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAAQAIAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>RSADecryptor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DigitalSignature.RSA.RSAEncryptor">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>RSAEncryptor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DigitalSignature.RSA.RSASigner">
+    <Position X="2.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAA=</HashCode>
+      <FileName>RSASigner.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
